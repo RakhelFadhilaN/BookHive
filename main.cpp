@@ -23,7 +23,7 @@ int main() {
     while (true) {
         showMenu();
         std::cin >> choice;
-        std::cin.ignore(); // To consume newline left in the buffer
+        std::cin.ignore(); 
 
         switch (choice) {
             case 1: {
